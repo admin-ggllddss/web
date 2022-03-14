@@ -4,30 +4,26 @@
     "env": {
         "AUUID": {
             "description": "UUID,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "6577e427-50f9-4d2c-8507-97af8c6ea5e3"
+            "value": "fedb50b8-4782-406d-a27c-d77451f2f95a"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面",
-            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+            "value": "https://github.com/StartBootstrap/startbootstrap-new-age/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY",
-            "value": "https://raw.githubusercontent.com/ganzyweb/ganzy-web/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/ganzyweb/web/main/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray",
-            "value": "https://raw.githubusercontent.com/ganzyweb/ganzy-web/main/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/ganzyweb/web/main/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "加密方式",
             "value": "chacha20-ietf-poly1305"
-        },
-        "PYTHONFILE": {
-            "description": "Python",
-            "value": "https://raw.githubusercontent.com/ganzyweb/ganzy-web/main/etc/run.py"
         }
     },
-    "website": "https://github.com/ganzyweb/ganzy-web",
-    "repository": "https://github.com/ganzyweb/ganzy-web",
+    "website": "https://github.com/ganzyweb/web",
+    "repository": "https://github.com/ganzyweb/web",
     "stack": "container"
 }
