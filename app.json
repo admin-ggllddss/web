@@ -1,0 +1,33 @@
+{
+    "name": "HerokuWeb",
+    "description": "heroku web",
+    "env": {
+        "AUUID": {
+            "description": "UUID,可生成UUID的网站: https://www.uuidgenerator.net",
+            "value": "6577e427-50f9-4d2c-8507-97af8c6ea5e3"
+        },
+        "CADDYIndexPage": {
+            "description": "自定义CADDY部署完成后点击View的显示页面",
+            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "自定义网络地址读取配置运行CADDY",
+            "value": "https://raw.githubusercontent.com/ganzyweb/ganzy-web/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "自定义网络地址读取配置运行xray",
+            "value": "https://raw.githubusercontent.com/ganzyweb/ganzy-web/main/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "加密方式",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "PYTHONFILE": {
+            "description": "Python",
+            "value": "https://raw.githubusercontent.com/ganzyweb/ganzy-web/main/etc/run.py"
+        }
+    },
+    "website": "https://github.com/ganzyweb/ganzy-web",
+    "repository": "https://github.com/ganzyweb/ganzy-web",
+    "stack": "container"
+}
